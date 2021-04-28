@@ -22,54 +22,71 @@
 // console.log(a + b)
 
 
-/* + Adição
-   -Subtração
-   *Multiplicação
-   /Divisão
-   %Módulo
-   ++Incremento
-   --Decremento */
+// /* + Adição
+//    -Subtração
+//    *Multiplicação
+//    /Divisão
+//    %Módulo
+//    ++Incremento
+//    --Decremento */
 
-   var a = 10;
-   var b = 15;
+//    var a = 10;
+//    var b = 15;
 
-    // Soma
-   var c = a + b;
+//     // Soma
+//    var c = a + b;
 
-   console.log(c);
+//    console.log(c);
    
-//    Subtração
-   var c = a - b;
+// //    Subtração
+//    var c = a - b;
 
-   console.log(c);
-
-
-//    Multiplicação
-   var c = a * b;
-
-   console.log(c);
-
-//    Divisão
-   var c = a / b;
-
-   console.log(c);
-
-//    Módulo (Resto da divisão)
-
-   var c = b % a;
-
-   console.log(c);
+//    console.log(c);
 
 
-// Incremento
-   var c = ++a;
+// //    Multiplicação
+//    var c = a * b;
 
-   console.log(c);
+//    console.log(c);
 
-   //    Decremento
+// //    Divisão
+//    var c = a / b;
 
-   var c = --a;
+//    console.log(c);
 
-   console.log(c);
+// //    Módulo (Resto da divisão)
+
+//    var c = b % a;
+
+//    console.log(c);
+
+
+// // Incremento
+//    var c = ++a;
+
+//    console.log(c);
+
+//    //    Decremento
+
+//    var c = --a;
+
+//    console.log(c);
 
    
+/* Atribuições*/
+
+
+// var a = 30;
+
+// a += 2;
+
+// console.log(a);
+
+
+var idade =11;
+
+if (idade >= 18)
+console.log("Pode");
+
+else
+console.log("Não pode");
