@@ -37,7 +37,7 @@
 //    var c = a + b;
 
 //    console.log(c);
-   
+
 // //    Subtração
 //    var c = a - b;
 
@@ -72,7 +72,7 @@
 
 //    console.log(c);
 
-   
+
 /* Atribuições*/
 
 
@@ -83,10 +83,25 @@
 // console.log(a);
 
 
-var idade =11;
+// var idade = 77;
 
-if (idade >= 18)
-console.log("Pode");
+// if (idade >= 18 && idade <=70) {
+//     console.log("Pode");
+//     console.log("Qual o seu pedido?");
+// }
 
-else
-console.log("Não pode");
+// else {
+//     console.log("Não pode");
+// }
+
+
+var numero = Math.random() * 100;
+
+var numero = 5;
+
+while (numero < 50) {
+    console.log("Número " + numero)
+    var numero = Math.random() * 100;
+}
+console.log("Número " + numero)
+console.log("Acabou!");
