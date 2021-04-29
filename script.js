@@ -95,13 +95,37 @@
 // }
 
 
-var numero = Math.random() * 100;
+// var numero = Math.random() * 100;
 
-var numero = 5;
+// var numero = 5;
 
-while (numero < 50) {
-    console.log("Número " + numero)
-    var numero = Math.random() * 100;
-}
-console.log("Número " + numero)
-console.log("Acabou!");
+// while (numero < 50) {
+//     console.log("Número " + numero)
+//     var numero = Math.random() * 100;
+// }
+// console.log("Número " + numero)
+// console.log("Acabou!");
+
+
+/* Array */
+
+
+// var alunos = ["Gerson", "Igor", "Marcia", "Alberta"]
+
+
+// for (var i = 0; i < alunos.length; i++) {
+//     console.log(alunos[i])
+// }
+
+
+// var alunos = ["Gerson", "Igor", "Marcia", "Alberta"]
+
+
+// for (var aluno of alunos) {
+//     console.log(aluno)
+// }
+
+
+
+
+
