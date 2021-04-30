@@ -243,31 +243,38 @@
 
 /* Objetos Construtores */
 
-var calcMedia = function () {
-    return (this.nota1 + this.nota2) / 2
-}
+// var calcMedia = function () {
+//     return (this.nota1 + this.nota2) / 2
+// }
 
 
 
-function criarAluno(nome, n1, n2) {
-    return {
-        nome: nome, 
-        nota1: n1, 
-        nota2: n2, 
-        media: calcMedia
-    }
-}
+// function criarAluno(nome, n1, n2) {
+//     return {
+//         nome: nome, 
+//         nota1: n1, 
+//         nota2: n2, 
+//         media: calcMedia
+//     }
+// }
 
-var turma = [
-    criarAluno("Igor", 9, 6),
-    criarAluno("Gerson", 8, 7),
-];
-
-
-var aluno = turma[1];
+// var turma = [
+//     criarAluno("Igor", 9, 6),
+//     criarAluno("Gerson", 8, 7),
+// ];
 
 
+// var aluno = turma[1];
 
-for (var aluno of turma) {
-    console.log(aluno.nome + " - " + aluno.media());
-}
+
+
+// for (var aluno of turma) {
+//     console.log(aluno.nome + " - " + aluno.media());
+// }
+
+/* Datas */
+
+
+var d = new Date(0);
+
+console.log(d);
