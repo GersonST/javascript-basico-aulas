@@ -183,7 +183,7 @@
 
 // function passou(media) {
 
-    
+
 //     if(media > 7) {
 //         return "Aprovado";
 //     }else{
@@ -213,28 +213,61 @@
 
 
 
-function calcMedia () {
-    return (this.notas[0] + this.notas[1]) /2
+// function calcMedia () {
+//     return (this.notas[0] + this.notas[1]) /2
+// }
+
+
+// var aluno = { nome: "Igor", notas:[7,8],
+
+// media: calcMedia
+
+// };
+
+
+
+// var aluno1 = { nome: "João", notas:[6,8],
+
+// media: calcMedia
+
+// };
+
+
+// console.log(aluno.nome)
+// console.log(aluno.media())
+
+// console.log(aluno1.nome)
+// console.log(aluno1.media())
+
+
+
+/* Objetos Construtores */
+
+var calcMedia = function () {
+    return (this.nota1 + this.nota2) / 2
 }
 
 
-var aluno = { nome: "Igor", notas:[7,8],
 
-media: calcMedia
+function criarAluno(nome, n1, n2) {
+    return {
+        nome: nome, 
+        nota1: n1, 
+        nota2: n2, 
+        media: calcMedia
+    }
+}
 
-};
+var turma = [
+    criarAluno("Igor", 9, 6),
+    criarAluno("Gerson", 8, 7),
+];
+
+
+var aluno = turma[1];
 
 
 
-var aluno1 = { nome: "João", notas:[6,8],
-
-media: calcMedia
-
-};
-
-
-console.log(aluno.nome)
-console.log(aluno.media())
-
-console.log(aluno1.nome)
-console.log(aluno1.media())
+for (var aluno of turma) {
+    console.log(aluno.nome + " - " + aluno.media());
+}
